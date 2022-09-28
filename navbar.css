@@ -1,0 +1,83 @@
+body{
+    margin: 0px;
+}
+
+#navbar{
+width: 100%;
+height:auto;
+
+display: grid;
+grid-template-columns: repeat(3,1fr);
+gap: 5px;
+align-items: center;
+background-color: #011e29 ;
+color: white;
+
+padding: 5px 10px 20px 23px;
+font-family: Lato, sans-serif;
+font-style: normal;
+font-weight: 400;
+
+}
+#navbar>div:nth-child(2){
+    margin-top: 5px;
+    
+}
+
+#navbar>div:nth-child(2)>img{
+   padding-left: 15px;
+   padding-top: 20px;
+   height: 50px;
+}
+#navbar>div>img{
+   
+    width: 100x;
+}
+#navbar>div:nth-child(1){
+margin-top: 20px;
+
+margin-left: 30px;
+display: grid;
+
+grid-template-columns: repeat(1,auto);
+grid-template-rows: repeat(2,10px);
+gap: 30px;
+justify-content: center;
+align-items: center;
+}
+#navbar>div:nth-child(1)>div:nth-child(1){
+    font-weight: bold;
+}
+#navbar>div:nth-child(1)>div:nth-child(2){
+    font-size: 14px;
+}
+#navbar>div:nth-child(3){
+    
+    display: grid;
+    margin-top: 20px;
+    margin-left: 40px;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(2,10px);
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+   
+    }
+    #navbar>div:nth-child(3)>div:nth-child(1){
+        font-weight: bold;
+    }
+    #navbar>div:nth-child(3)>div:nth-child(2){
+        font-size: 14px;
+        margin-left: 35px;
+    }
+    #sub{
+        background-color: white;
+        color: black;
+        font-weight: bold;
+        border: none;
+        padding: 2px 5px;
+        font-size: 16px;
+    }
+    #sub:hover{
+        background-color: rgb(197, 195, 195);
+    }
