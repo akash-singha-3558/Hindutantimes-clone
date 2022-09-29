@@ -45,12 +45,19 @@ p1.style.fontWeight="bold";
 p1.style.color="#00b1cd";
 p1.style.fontFamily="Lato, sans-serif";
 p1.style.fontSize="14px";
+
 p2.innerText=ele.news;
 p2.style.textAlign="left";
 p2.style.fontWeight="bold";
 p2.style.cursor="pointer";
 p2.style.fontFamily="Lato, sans-serif";
 p2.style.color="#515151";
+p2.addEventListener("mouseover",function(){
+    p2.style.color="black";
+})
+p2.addEventListener("mouseleave",function(){
+ p2.style.color="#515151";
+})
 p3.innerText=ele.date+" "+date;
 p3.style.color="grey";
 p3.style.textAlign="left";
@@ -98,6 +105,12 @@ p2.innerText=ele.date+" "+date;
 p2.style.color="grey";
 p2.style.textAlign="left";
 p2.style.fontSize="14px";
+p1.addEventListener("mouseover",function(){
+    p1.style.color="black";
+})
+p1.addEventListener("mouseleave",function(){
+ p1.style.color="#515151";
+})
 div.append(p1,p2);
 div.style.padding="2px 4px 4px 8px";
 div.style.boxShadow= 'rgba(0, 0, 0, 0.05) 0px 0px 0px 1px';
@@ -160,7 +173,7 @@ let div2= document.createElement("div");
 let p1= document.createElement("p");
 p1.innerText=el.maintext;
 p1.style.fontWeight="bold";
-p1.style.color="#515151";
+
 let p2= document.createElement("p");
 p2.innerText=el.subtext;
 p2.style.color="#00b1cd"
@@ -199,7 +212,7 @@ let div2= document.createElement("div");
 let p1= document.createElement("p");
 p1.innerText=el.maintext;
 p1.style.fontWeight="bold";
-p1.style.color="#515151";
+
 let p2= document.createElement("p");
 p2.innerText=el.subtext;
 p2.style.color="#00b1cd"
