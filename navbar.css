@@ -3,7 +3,7 @@
 #navbar{
 width: 100%;
 height:auto;
-
+margin: 0;
 display: grid;
 grid-template-columns: repeat(3,1fr);
 gap: 5px;
