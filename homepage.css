@@ -2,38 +2,46 @@ body{
     margin: 0px;
     
 }
-#category{
+#category>div{
 margin-top: 80px;
-width: 100%;
+width: 85%;
 height: 40px;
 display: flex;
 margin: auto;
 
 align-items:center;
-
 font-size: 15px;
-padding-left: 110px;
 font-weight: bold;
-box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-font-family: Lato, sans-serif;
-}
 
-#category>li{
+font-family: Lato, sans-serif;
+
+justify-content: space-evenly;
+}
+#category{
+    background-color: white;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    height: 40px;
+    width: 100%;
+    margin: auto;
+    
+}
+#category>div>li{
     display: flex;
-    margin-right: 40px;
+    margin-left: 5px;
+    margin-right: 5px;
     list-style: none;
 }
-#category>li>a{
+#category>div>li>a{
     text-decoration: none;
     color: black;
     transition-duration: 0.2s;
     
 }
 
-#category>li>a:hover{
+#category>div>li>a:hover{
     color: #00b1cd;
 }
-#category>li>a{
+#category>div>li>a{
     padding-bottom: 5px;
 }
 
@@ -41,7 +49,7 @@ font-family: Lato, sans-serif;
     /* padding-bottom: 5px; */
     border-bottom-style:  solid ; 
    border-color: #00b1cd;
-   color: red;
+   
   }
 
 
@@ -50,12 +58,11 @@ font-family: Lato, sans-serif;
 
 #news{
     margin-top: 20px;
-    
-width: 100%;
+    width: 100%;
 height: auto;
 display: grid;
 justify-content: center;
-grid-template-columns: 250px 550px 310px;
+grid-template-columns: 240px 540px 300px;
 grid-template-rows: auto auto auto;
 gap:0px 30px;
 font-family: 'blacker_pro_displayheavy';
