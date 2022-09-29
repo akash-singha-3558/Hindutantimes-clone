@@ -52,6 +52,12 @@ p2.style.fontWeight="bold";
 p2.style.color="#515151";
 p2.style.fontFamily="Lato, sans-serif";
 p2.style.cursor="pointer";
+p2.addEventListener("mouseover",function(){
+    p2.style.color="black";
+})
+p2.addEventListener("mouseleave",function(){
+ p2.style.color="#515151";
+})
 p3.innerText=ele.date+" "+date;
 p3.style.color="grey";
 p3.style.textAlign="left";
@@ -104,6 +110,12 @@ let arrOfLatestNews2=[
  p2.style.color="#515151";
  p2.style.fontFamily="Lato, sans-serif";
  p2.style.cursor="pointer";
+ p2.addEventListener("mouseover",function(){
+    p2.style.color="black";
+})
+p2.addEventListener("mouseleave",function(){
+ p2.style.color="#515151";
+})
  p3.innerText=ele.date+" "+date;
  p3.style.color="grey";
  p3.style.textAlign="left";
