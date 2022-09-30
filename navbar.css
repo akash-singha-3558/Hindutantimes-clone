@@ -27,10 +27,7 @@ font-weight: 400;
    padding-top: 20px;
    height: 50px;
 }
-#navbar>div>img{
-   
-    width: 100x;
-}
+
 #navbar>div:nth-child(1){
 margin-top: 20px;
 
@@ -79,3 +76,9 @@ align-items: center;
     #sub:hover{
         background-color: rgb(197, 195, 195);
     }
+
+     
+
+
+
+ 
