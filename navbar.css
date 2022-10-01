@@ -17,6 +17,10 @@ font-style: normal;
 font-weight: 400;
 
 }
+a{
+    text-decoration: none;
+    color: white;
+}
 #navbar>div:nth-child(2){
     margin-top: 5px;
     
