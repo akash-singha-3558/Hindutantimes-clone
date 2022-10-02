@@ -110,4 +110,3 @@ document.querySelector("#footer>div:nth-child(3)>form").addEventListener("submit
     
     
     
-    

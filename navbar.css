@@ -85,4 +85,25 @@ align-items: center;
 
 
 
+ /* medium screen */
+ @media all and (min-width:551px) and (max-width:700px){
+   
+
+
+
+
+
+
+    }
+
+
+
+     /* small screen */
+   @media all and (min-width:320px) and (max-width:550px){
+
+   
+        
+        
+   
+   }
  

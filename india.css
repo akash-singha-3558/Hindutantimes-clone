@@ -230,16 +230,38 @@
 
 
 
-              /* Medium Screen */
-      @media only screen and (min-width: 500px) and (max-width: 768px) {
-                
-     
-       
+    /* medium screen */
+ @media all and (min-width:551px) and (max-width:700px){
+    
+    #news{
+        width: auto;
+        display: grid;
+        margin: auto;
+    grid-template-columns: repeat(1,1fr);
+     /* margin-left: 200px; */
+     /* justify-content: center; */
 
     }
+   
 
-    /* Small Screen */
-    @media only screen and (min-width: 320px) and (max-width: 499px) {
-        
-        
+ 
     }
+
+
+
+     /* small screen */
+   @media all and (min-width:320px) and (max-width:550px){
+
+    #news{
+        width: auto;
+        display: grid;
+        margin: auto;
+        grid-template-columns: repeat(1,1fr);
+        /* margin-left: 209px; */
+        /* justify-content: center; */
+
+        }
+        
+        
+   
+   }
