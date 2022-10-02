@@ -212,7 +212,7 @@ center{
 
     #footerlower{
         width: 100%;
-<<<<<<< HEAD
+ 
     height: auto;
     display: grid;
     margin: auto;
@@ -220,11 +220,11 @@ center{
     
     padding-bottom: 20px;
         background-color: #00131a;
-        padding-right: 300px;
-=======
+    
+
         padding-right: 300px;
  
->>>>>>> 7a188fc26fc2b563712f16ae8dfcabb5c6c2c061
+
     }
 
     #img{
