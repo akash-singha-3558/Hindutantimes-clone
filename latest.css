@@ -209,3 +209,38 @@
             #news>div:nth-child(3){
                 background-color: rgb(228, 228, 228);
             }
+/* medium screen */
+@media all and (min-width:551px) and (max-width:700px){
+    
+    #news{
+        width: auto;
+        display: grid;
+        margin: auto;
+    grid-template-columns: repeat(1,1fr);
+     /* margin-left: 200px; */
+     /* justify-content: center; */
+
+    }
+   
+
+ 
+    }
+
+
+
+     /* small screen */
+   @media all and (min-width:320px) and (max-width:550px){
+
+    #news{
+        width: auto;
+        display: grid;
+        margin: auto;
+        grid-template-columns: repeat(1,1fr);
+        /* margin-left: 209px; */
+        /* justify-content: center; */
+
+        }
+        
+        
+   
+   }

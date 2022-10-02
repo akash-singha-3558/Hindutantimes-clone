@@ -163,7 +163,7 @@ center{
     #footer{
         width: 100%;
         
-
+        padding-right: 200px;
  
     }
 
@@ -182,7 +182,7 @@ center{
     
     padding-bottom: 20px;
         background-color: #00131a;
-    
+        padding-right: 200px;
     }
 
     #img{
@@ -203,16 +203,34 @@ center{
         padding-right: 300px;
  
     }
+
+    
+
+
+
+
+
     #footerlower{
         width: 100%;
+<<<<<<< HEAD
+    height: auto;
+    display: grid;
+    margin: auto;
+    margin-top: 0px;
+    
+    padding-bottom: 20px;
+        background-color: #00131a;
+        padding-right: 300px;
+=======
         padding-right: 300px;
  
+>>>>>>> 7a188fc26fc2b563712f16ae8dfcabb5c6c2c061
     }
-        
+
     #img{
         
         grid-template-columns: repeat(3,1fr);
-        
+      
     }
    }
 
