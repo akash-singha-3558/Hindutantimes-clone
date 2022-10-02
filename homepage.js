@@ -1,5 +1,5 @@
 //Category
-let arrOfCat =[{name:"Home",link:"homepage.html"},{name:"Latest",link:"latest.html"},{name:"India",link:"india.html"},{name:"World",link:"home.html"},{name:"Delhi"},{name:"Entertainment"},{name:"Cricket"},
+let arrOfCat =[{name:"Home",link:"homepage.html"},{name:"Latest",link:"latest.html"},{name:"India",link:"india.html"},{name:"World",link:"homepage.html"},{name:"Delhi",link:"india.html"},{name:"Entertainment",link:"latest.html"},{name:"Cricket",link:"homepage.html"},
 
 {name:"Lifestyle",link:"latest.html"},{name:"Astrology",link:"india.html"},{name:"Editorials",link:"homepage.html"},{name:"For You",link:"india.html"},{name:"Shop Now",link:"homepage.html"},
 ];
@@ -103,6 +103,7 @@ p1.style.cursor="pointer";
 p1.style.color="#515151";
 p2.innerText=ele.date+" "+date;
 p2.style.color="grey";
+p2.style.fontFamily="Lato, sans-serif";
 p2.style.textAlign="left";
 p2.style.fontSize="14px";
 p1.addEventListener("mouseover",function(){
@@ -155,8 +156,12 @@ image:"https://images.hindustantimes.com/img/2022/09/29/148x111/Amazon-Prime-Pro
 image:"https://images.hindustantimes.com/img/2022/09/28/148x111/Capture_1664367696974_1664367703947_1664367703947.JPG"},
 { maintext:"India vs South Africa Live Score 1st T20I: SA rebuild dented as Markram falls",subtext:"Cricket",pod:"Updated on",
 image:"https://images.hindustantimes.com/img/2022/09/28/148x111/India-South-Africa-Cricket-20_1664373374379_1664373374379_1664373385304_1664373385304.jpg"},
-
-
+{ maintext:"Public sector banks to begin special campaign to fill pending vacancies for SCs",subtext:"India News",pod:"Updated on",
+image:"https://images.hindustantimes.com/img/2022/09/30/150x84/917de9b4-406e-11ed-986f-37f88e2260c8_1664508199928.jpg"},
+{ maintext:"Terrorist killed in encounter with forces in J&K's Baramulla",subtext:"India News",pod:"Updated on",
+image:"https://images.hindustantimes.com/img/2022/09/30/148x111/ANI-20220530179-0_1653960272874_1664506652925_1664506652925.jpg"},
+{ maintext:"Strengthening India’s military government’s top priority: Rajnath Singh",subtext:"India News",pod:"Published on",
+image:"https://images.hindustantimes.com/img/2022/09/30/150x84/5e3e1af0-406a-11ed-986f-37f88e2260c8_1664506564118.jpg"},
 
 ]
 
@@ -199,7 +204,21 @@ div.append(div1,div2);
 document.querySelector("#top-news-under").append(div);
 })
 
-arrOFunders.forEach(function(el){
+let arrOFunders2=[
+    { maintext:"LIVE: 19 killed, 27 injured in suicide bombing in Kabul",subtext:"India News",pod:"Updated on",
+    image:"https://images.hindustantimes.com/img/2022/09/30/148x111/Breaking-News-Live-Blog-pic_1626307942790_1664496778018_1664496778018.jpg"},
+{ maintext:"Govt raises DA to 38% ahead of Diwali and assembly elections in HP, Gujarat",subtext:"India News",pod:"Updated on",
+image:"https://images.hindustantimes.com/img/2022/09/28/150x84/0ee42d1a-3f1a-11ed-986f-37f88e2260c8_1664362257069.jpg"},
+{ maintext:"Adani slips to 4th spot, Louis Vitton boss is now world's second richest: Report",subtext:"Business",pod:"Updated on",
+image:"https://images.hindustantimes.com/img/2022/09/29/148x111/Amazon-Prime-Probe-0_1664448113653_1664448113653_1664448155690_1664448155690.jpg"},
+{ maintext:"Veteran Cong leader to meet Sonia Gandhi at 5 pm, help with Rajasthan crisis",subtext:"Delhi News",pod:"Updated on",
+image:"https://images.hindustantimes.com/img/2022/09/28/148x111/Capture_1664367696974_1664367703947_1664367703947.JPG"},
+{ maintext:"India vs South Africa Live Score 1st T20I: SA rebuild dented as Markram falls",subtext:"Cricket",pod:"Updated on",
+image:"https://images.hindustantimes.com/img/2022/09/28/148x111/India-South-Africa-Cricket-20_1664373374379_1664373374379_1664373385304_1664373385304.jpg"},
+
+
+]
+arrOFunders2.forEach(function(el){
     const date = new Date();date.toLocaleString() ;
 let div=document.createElement("div");
 div.style.display="flex";
