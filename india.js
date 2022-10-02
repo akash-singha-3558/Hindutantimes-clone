@@ -1,9 +1,8 @@
 //Category
-let arrOfCat =[{name:"Home",link:"homepage.html"},{name:"Latest",link:"latest.html"},{name:"India",link:"india.html"},{name:"World",link:"home.html"},{name:"Delhi"},{name:"Entertainment"},{name:"Cricket"},
+let arrOfCat =[{name:"Home",link:"homepage.html"},{name:"Latest",link:"latest.html"},{name:"India",link:"india.html"},{name:"World",link:"homepage.html"},{name:"Delhi",link:"india.html"},{name:"Entertainment",link:"latest.html"},{name:"Cricket",link:"homepage.html"},
 
 {name:"Lifestyle",link:"latest.html"},{name:"Astrology",link:"india.html"},{name:"Editorials",link:"homepage.html"},{name:"For You",link:"india.html"},{name:"Shop Now",link:"homepage.html"},
 ];
-
 
 
 arrOfCat.forEach(function(ele){
