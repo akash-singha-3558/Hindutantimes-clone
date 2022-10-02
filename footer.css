@@ -200,11 +200,13 @@ center{
     #footer{
         width: 100%;
         
-
+        padding-right: 300px;
  
     }
     #footerlower{
         width: 100%;
+        padding-right: 300px;
+ 
     }
         
     #img{
@@ -213,3 +215,26 @@ center{
         
     }
    }
+
+
+   /* medium screen */
+@media all and (min-width: 551px) and (max-width: 700px) {
+    #footer{
+        width: 100%;
+        
+        padding-right: 300px;
+ 
+    }
+    #footerlower{
+        width: 100%;
+        padding-right: 300px;
+ 
+    }
+        
+    #img{
+        
+        grid-template-columns: repeat(3,1fr);
+        
+    }
+
+  }
